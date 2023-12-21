@@ -337,7 +337,7 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
 }
-#reult img{
+#result img{
     width: 50%;
     height: 100px;
     object-fit: cover;

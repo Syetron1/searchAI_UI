@@ -470,7 +470,8 @@ footer .bottom .links a{
     margin-left: 14px;
 }
 
-  @media screen and (max-width: 992px) {
+
+@media screen and (max-width: 992px) {
     
     nav button{
         display: none;
@@ -506,7 +507,12 @@ footer .bottom .links a{
     footer .top ul{
         display: none;
     }
-
+    .info{
+        gap: 22px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 48%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -557,6 +563,11 @@ footer .bottom .links a{
         gap: 14px;
     }
 
+    .info{
+        padding: 60px 42px;
+        gap: 18px;
+    }
+
 }
 
     @media screen and (max-width: 576px) {
@@ -589,5 +600,12 @@ footer .bottom .links a{
     .portfolio .portfo-items .item{
         width: 80%;
     }
+    
+    .info{
+        width: 80%;
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+
 
 }

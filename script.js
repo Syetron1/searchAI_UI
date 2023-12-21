@@ -81,7 +81,7 @@ async function search() {
 }); */
             // Add a click event listener to the entryContainer
             entryContainer.addEventListener("click", () => {
-                window.location.href = entry.link;
+                window.open(entry.link, "_blank");
             });
 
             const imageContainer = document.createElement("div");

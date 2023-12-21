@@ -71,10 +71,10 @@ async function search() {
             const entryContainer = document.createElement("div");
             entryContainer.classList.add("entry-container");
 
-            // Add a click event listener to the entryContainer
+/*             // Add a click event listener to the entryContainer
             entryContainer.addEventListener("click", () => {
                 window.location.href = entry.link;
-            });
+            }); */
 
             const imageContainer = document.createElement("div");
             imageContainer.classList.add("image-container");
@@ -101,6 +101,15 @@ async function search() {
             entryContainer.appendChild(textContainer);
 
             resultDiv.appendChild(entryContainer);// Add a horizontal line between entries
+            resultDiv.addEventListener("click", (event) => {
+            const entryContainer = event.target.closest(".entry-container");
+            if (entryContainer) {
+                // Handle the click event
+                const entry = // Get the corresponding entry data
+                window.location.href = entry.link;
+    }
+});
+
         }
     }
 
